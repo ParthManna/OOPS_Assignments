@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class p1{
 	public static void main(String[] args){
@@ -9,6 +9,6 @@ class p1{
 		if(n%2==0)	System.out.println("The Number "+n+" is Even");
 		else		System.out.println("The Number "+n+" is Odd");
 
-		}
+	}
 }
 

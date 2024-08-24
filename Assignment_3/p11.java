@@ -1,5 +1,3 @@
-import java.util.*;
-
 class p11{
 	public static void main(String[] args){
 		int n = Integer.parseInt(args[0]);

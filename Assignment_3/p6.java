@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class p6{
 	public static void main(String[] args){
@@ -10,3 +10,4 @@ class p6{
 		System.out.printf("Factorial of %d is %d\n",n,f);
 	}
 }
+

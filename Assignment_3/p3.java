@@ -1,12 +1,9 @@
-import java.util.*;
-
+import java.util.Scanner;
 class p3{
 
 	public static boolean isPrime(int i){
 		if(i<=2)	return false;
-
 		for(int j=2; j<=Math.sqrt(i); j++)	if(i % j == 0)	return false;
-
 		return true;
 	}
 
@@ -20,10 +17,10 @@ class p3{
 		for(int i=1; i<=n; i++){
 			if(isPrime(i)){
 				count++;
-				System.out.println(i+" ");
+				System.out.print(i+" ");
 			}
 		}
-		System.out.println("Total Prime Numbers:"+count);
+		System.out.println("\nTotal Prime Numbers:"+count);
 	}
 }
 

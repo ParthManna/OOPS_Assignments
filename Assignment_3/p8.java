@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class p8{
 	static int r,c;

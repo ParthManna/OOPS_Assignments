@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Student{
 	int roll;
 	String name;
@@ -38,6 +36,7 @@ class p15{
 
 		for(Student s : s1)
 			if(s.getAverage() > bestS.getAverage())	bestS = s;
+		System.out.println("Best Student Details:");
 		bestS.display();
 	}
 }

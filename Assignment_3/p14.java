@@ -1,5 +1,3 @@
-import java.util.*;
-
 class p14{
 	public static void main(String[] city){
 		String temp = null;
@@ -14,6 +12,6 @@ class p14{
 			}
 		}
 
-		for(int i=0; i<city.length; i++)	System.out.println(city[i] + " ");
+		for(int i=0; i<city.length; i++)	System.out.println(city[i]);
 	}
 }

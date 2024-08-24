@@ -1,5 +1,3 @@
-import java.util.*;
-
 class p12{
 	public static void main(String[] args){
 		String n = args[0],c = args[1],s = args[2];

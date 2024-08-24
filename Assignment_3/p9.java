@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class p9{
 	public static void main(String args[]){
@@ -9,7 +9,7 @@ class p9{
 		int c = sc.nextInt();
 		int sum = 0;
 		int a[][] = new int[r][c];
-
+		System.out.println("Enter Matrix:");
 		for(int i=0; i<r; i++)
 			for(int j=0; j<c; j++)	a[i][j] = sc.nextInt();
 		
