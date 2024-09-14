@@ -8,3 +8,6 @@ class Test{
 
 	float m1,m2;
 	void getmarks();
+
+
+	
