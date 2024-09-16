@@ -49,7 +49,6 @@ class Result extends Test implements Games {
         System.out.println("Total score: " + total);
     }
 }
-
 // Main class to execute the program
 public class p6 {
     public static void main(String[] args) {
