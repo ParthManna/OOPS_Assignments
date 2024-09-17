@@ -60,3 +60,6 @@ public class p6 {
         student.displayResult();  // Displaying result with total score
     }
 }
+
+
+
