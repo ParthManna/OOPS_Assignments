@@ -1,11 +1,11 @@
 class Student {
     protected int roll;
 
-    public void getRoll(int roll) {
+    void getRoll(int roll) {
         this.roll = roll;
     }
 
-    public void displayRoll() {
+    void displayRoll() {
         System.out.println("Roll number: " + roll);
     }
 }
@@ -27,8 +27,7 @@ class Test extends Student {
 
 interface Games {
     float gamewt = 8.0f;
-
-    void displayWT();
+    void displayWT();  
 }
 
 
