@@ -10,7 +10,7 @@ class Cats extends Animals{
 	}
 
 	void kidName(){
-		System.out.println("the cat's kid is known");
+		System.out.println("the cat's kid is known as a Kitten");
 	}
 }
 

@@ -36,24 +36,24 @@ class p3{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		SavingAccount a = new SavingAccount();
-		System.out.println("Enter Account Holder Name:");
+		System.out.print("Enter Account Holder Name: ");
 		a.accountHolderName = sc.nextLine();
 
-		System.out.println("Enter Account Number:");
+		System.out.print("Enter Account Number: ");
 		a.accountNumber = sc.nextInt();
 
-		System.out.println("Enter Mobile Number");
+		System.out.print("Enter Mobile Number: ");
 		a.mobile = sc.nextLong();
 
-		System.out.println("Enter Balance");
+		System.out.print("Enter Balance: ");
 		a.Balance = sc.nextDouble();
 		a.display();
 
-		System.out.println("How much you want to withdraw");
+		System.out.print("How much you want to withdraw: ");
 		double r = sc.nextDouble();
 		a.withdrawal(r);
 
-		System.out.println("How much you want to Deposit");
+		System.out.print("How much you want to Deposit: ");
                 double p = sc.nextDouble();
                 a.deposit(p);
 		

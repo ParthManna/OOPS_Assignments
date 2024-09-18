@@ -1,5 +1,5 @@
 class Student {
-    protected int roll;
+    int roll;
 
     void getRoll(int roll) {
         this.roll = roll;
@@ -11,25 +11,24 @@ class Student {
 }
 
 class Test extends Student {
-    protected float m1, m2;
+    float m1, m2;
 
-    public void getMarks(float m1, float m2) {
+    void getMarks(float m1, float m2) {
         this.m1 = m1;
         this.m2 = m2;
     }
 
-    public void displayMarks() {
+    void displayMarks() {
         System.out.println("Marks 1: " + m1);
         System.out.println("Marks 2: " + m2);
     }
 }
 
-
 interface Games {
     float gamewt = 8.0f;
+
     void displayWT();  
 }
-
 
 class Result extends Test implements Games {
 
@@ -37,12 +36,10 @@ class Result extends Test implements Games {
         System.out.println("Games weight: " + gamewt);
     }
 
-    public void displayResult() {
+    void displayResult() {
         displayRoll();
         displayMarks();
         displayWT();
-        float total = m1 + m2 + gamewt;
-        System.out.println("Total score: " + total);
     }
 }
 
@@ -56,6 +53,3 @@ public class p6 {
         student.displayResult();  
     }
 }
-
-
-
