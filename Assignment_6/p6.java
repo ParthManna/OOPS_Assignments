@@ -1,4 +1,3 @@
-// Student class
 class Student {
     protected int roll;
 
@@ -11,7 +10,6 @@ class Student {
     }
 }
 
-// Test class (inherits from Student)
 class Test extends Student {
     protected float m1, m2;
 
@@ -26,17 +24,16 @@ class Test extends Student {
     }
 }
 
-// Games Interface
+
 interface Games {
     float gamewt = 8.0f;
 
     void displayWT();
 }
 
-// Result class (inherits from Test and implements Games)
+
 class Result extends Test implements Games {
 
-    @Override
     public void displayWT() {
         System.out.println("Games weight: " + gamewt);
     }
@@ -49,15 +46,15 @@ class Result extends Test implements Games {
         System.out.println("Total score: " + total);
     }
 }
-// Main class to execute the program
+
 public class p6 {
     public static void main(String[] args) {
         Result student = new Result();
         
-        student.getRoll(101);  // Providing roll number
-        student.getMarks(85.5f, 90.0f);  // Providing marks for two subjects
+        student.getRoll(101);
+        student.getMarks(85.5f, 90.0f); 
 
-        student.displayResult();  // Displaying result with total score
+        student.displayResult();  
     }
 }
 
