@@ -50,6 +50,7 @@ public class p6 {
         student.getRoll(101);
         student.getMarks(85.5f, 90.0f); 
 
+        
         student.displayResult();  
     }
 }
