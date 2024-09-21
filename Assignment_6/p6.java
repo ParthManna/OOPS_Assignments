@@ -35,7 +35,6 @@ class Result extends Test implements Games {
     public void displayWT() {
         System.out.println("Games weight: " + gamewt);
     }
-
     void displayResult() {
         displayRoll();
         displayMarks();
