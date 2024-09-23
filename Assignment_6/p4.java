@@ -16,7 +16,6 @@ class MobileBookShopping implements Vehicle, Book{
 	}
 }
 
-
 class p4{
 	public static void main(String args[]){
 		
