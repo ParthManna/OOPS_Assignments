@@ -1,4 +1,4 @@
-package Prime;
+package testPF;
 
 public class Prime{
 	public void testP(int n){

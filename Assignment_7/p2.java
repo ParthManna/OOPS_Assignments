@@ -1,5 +1,6 @@
-import Prime.Prime;
-import Factorial.Factorial;
+import testPF.Factorial;
+import testPF.Prime;
+
 import java.util.Scanner;
 
 class p2{

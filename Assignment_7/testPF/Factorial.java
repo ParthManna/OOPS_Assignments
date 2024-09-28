@@ -1,4 +1,4 @@
-package Factorial;
+package testPF;
 
 public class Factorial{
         public void testF(int n){
