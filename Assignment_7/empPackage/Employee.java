@@ -1,11 +1,6 @@
-// File: empPackage/Employee.java
 package empPackage;
-
 public class Employee {
-    protected int id;
-    protected String name;
-    protected double basic, DA, HRA;
-
+    protected int id,String name,double basic, DA, HRA;
     public Employee(int id, String name, double basic, double DA, double HRA) {
         this.id = id;
         this.name = name;
@@ -13,7 +8,6 @@ public class Employee {
         this.DA = DA;
         this.HRA = HRA;
     }
-
     public void display() {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
@@ -22,4 +16,3 @@ public class Employee {
         System.out.println("HRA: " + HRA);
     }
 }
-
