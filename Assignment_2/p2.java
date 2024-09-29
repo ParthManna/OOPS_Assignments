@@ -3,8 +3,6 @@ abstract class Shape {
     abstract double calcArea();
 }
 
-
-
 class Circle extends Shape {
     private double radius;
     
