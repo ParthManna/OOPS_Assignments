@@ -7,7 +7,6 @@ public class PermanentEmp extends Employee {
         super(id, name, basic, DA, HRA);
     }
 
-    
 
     public void display() {
         double totalSalary = basic + DA + HRA;
